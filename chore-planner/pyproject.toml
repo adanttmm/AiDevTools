@@ -1,0 +1,16 @@
+[project]
+name = "chore-planner"
+version = "0.1.0"
+description = "Household chore planner that auto-balances chores and publishes per-person ICS feeds"
+requires-python = ">=3.12"
+dependencies = [
+    "Django>=5.0,<6.0",
+    "icalendar>=6.0",
+    "python-dateutil>=2.9",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-django>=4.8",
+]
